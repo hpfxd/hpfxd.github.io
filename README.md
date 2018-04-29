@@ -1,2 +1,2 @@
-# hpfxd.github.io
-yes!
+# hpfxd.tooger.xyz
+site for `hpfxd.tooger.xyz`
