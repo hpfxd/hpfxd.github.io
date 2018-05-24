@@ -1,0 +1,14 @@
+body {
+	background-image: url("../img/bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.text {
+	color: #EEE;
+}
+
+.transparent-bg {
+	background-color: rgb(255, 255, 255, 0.8);
+}
