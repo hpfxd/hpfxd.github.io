@@ -1,0 +1,29 @@
+---
+---
+.logo {
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+@for $i from 1 through 2 {
+	h#{$i} {
+		text-align: center;
+	}
+}
+
+.contact {
+	background-color: rgba(40, 40, 40, 0.2);
+	border-radius: 5px;
+	padding: 5px;
+	.social {
+		display: block;
+		.icon {
+			padding: 3px;
+			width: 64px;
+			height: 64px;
+			vertical-align: middle;
+		}
+	}
+}
