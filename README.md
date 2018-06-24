@@ -1,2 +1,2 @@
-# hpfxd.tooger.xyz
-site for `hpfxd.tooger.xyz`
+# wow !
+site for `hpf.fun`
