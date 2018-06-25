@@ -12,38 +12,24 @@
 
 	<link rel="icon" type="image/png" href="/assets/img/logo.png">
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="/assets/css/hpfxd.css">
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 	<script src="/assets/js/hpfxd.js"></script>
 </head>
 <body>
-	<div>
-		<div class="navbar-fixed">
-			<nav>
-				<div class="nav-wrapper">
-					<a href="/" class="brand-logo"><img class="logo" src="/assets/img/logo.png"> hpfxd</a>
-					<ul class="right hide-on-med-and-down">
-						<li><a href="/">Home</a></li>
-						<li><a href="/contact">Contact</a></li>
-						<li><a href="https://discord.gg/jaxvC2V" target="_blank">Discord</a></li>
-					</ul>
-					<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-				</div>
-			</nav>
-		</div>
-		<ul id="slide-out" class="sidenav">
+	<div class="navbar">
+		<ul>
 			<li><a href="/">Home</a></li>
 			<li><a href="/contact">Contact</a></li>
-			<li><a href="https://discord.gg/jaxvC2V">Discord</a></li>
 		</ul>
 	</div>
 	<div class="container">
-		<h1>{{ page.title }} </h1>
-		{{ content }}
+		<div style="display:block;">
+			<h1><a href="/">hpf.fun</a></h1>
+			<h2>{{ page.title }}</h2>
+			{{ content }}
+		</div>
 	</div>
 </body>
 </html>
