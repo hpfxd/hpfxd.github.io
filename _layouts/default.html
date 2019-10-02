@@ -8,28 +8,19 @@
 
 	<meta property="og:site_name" content="hpfxd">
 	<meta property="og:title" content="{{ page.title }}">
+	<meta property="og:description" content="{{ page.description }}">
 	<meta property="og:image" content="/assets/img/logo.png">
 
 	<link rel="icon" type="image/png" href="/assets/img/logo.png">
-
-	<link rel="stylesheet" href="/assets/css/hpfxd.css">
-
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-	<script src="/assets/js/hpfxd.js"></script>
 </head>
 <body>
-	<div class="navbar">
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="/contact">Contact</a></li>
-		</ul>
-	</div>
-	<div class="container">
-		<div style="display:block;">
-			<h1><a href="/">hpfxd.nl</a></h1>
-			<h2>{{ page.title }}</h2>
-			{{ content }}
+	<div class="content">
+		<div class="page">
+			{{ page.content }}
 		</div>
 	</div>
+
+	<link rel="stylesheet" href="/assets/css/base.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </body>
 </html>
