@@ -173,3 +173,16 @@ body {
 	position: relative;
 	margin-top: -15px;
 }
+
+/* Key icon */
+.pgp-icon {
+	display: inline-block;
+	position: absolute;
+	z-index: 999;
+}
+
+.pgp-icon a {
+	position: relative;
+	left: -134px;
+	top: 2px;
+}
