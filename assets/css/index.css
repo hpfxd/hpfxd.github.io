@@ -97,7 +97,8 @@ body {
 	transition: background 5s cubic-bezier(0.19, 1, 0.22, 1), border 1s cubic-bezier(0.19, 1, 0.22, 1), color 0.6s cubic-bezier(0.19, 1, 0.22, 1);
 	user-select: none;
 	height: 65px;
-	width: 300px;
+	width: 320px;
+	text-decoration: none;
 }
 
 .button .btnContent {
